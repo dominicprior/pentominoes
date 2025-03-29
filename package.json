@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "rm -f dist/*.js dist/*.js.map && tsc"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "rimraf": "^6.0.1",
     "typescript": "^5.8.2"
   }
 }

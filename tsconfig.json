@@ -1,6 +1,8 @@
 {
   "compilerOptions": {
     "sourceMap": true, 
+    "outDir": "./dist",                                   /* Specify an output folder for all emitted files. */
+    "noEmitOnError": true,                            /* Disable emitting files if any type checking errors are reported. */
     "module": "es6"
   }
 }
